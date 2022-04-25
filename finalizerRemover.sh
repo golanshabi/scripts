@@ -1,4 +1,5 @@
 #!/bin/sh
+# USAGE: ./finalizerRemover.sh <object type> <namespace to remove from, leave empty to go over all namespaces>
 namespace=-n $2
 object=$1
 if [ "$2" == "" ]; then
